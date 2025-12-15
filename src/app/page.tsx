@@ -3,9 +3,9 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-12">
       <header className="text-center mb-10">
         <h1 className="text-5xl font-extrabold text-indigo-700 mb-2">
-          どきどきハッピーれもんず
+          佐藤秀忠
         </h1>
-        <p className="text-xl text-gray-600">「どきどきハッピーれもんず」のホームページ</p>
+        <p className="text-xl text-gray-600">「佐藤秀忠」のホームページ</p>
       </header>
 
       <main className="w-full max-w-4xl bg-white shadow-xl rounded-lg p-8">
@@ -14,7 +14,7 @@ export default function AboutPage() {
             バンドコンセプト
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            栃木県を中心に活動するロックバンドです。日常に潜む葛藤や感情を、和風のメロディと激しいビートで表現しています。
+            北関東を中心に活動する佐藤秀忠です。日常に潜む葛藤や感情を、和風のメロディと激しいビートで表現しています。
           </p>
         </section>
 
