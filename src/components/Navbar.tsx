@@ -19,7 +19,7 @@ export default function Navbar() {
           {/* ロゴ/バンド名 */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-white text-2xl font-bold tracking-wider hover:text-indigo-200 transition duration-150 whitespace-nowrap">
-              佐藤秀忠
+              Usini
             </Link>
           </div>
           
