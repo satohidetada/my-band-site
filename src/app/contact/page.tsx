@@ -8,7 +8,7 @@ export default function ContactPage() {
           📞 Contact / お問い合わせ
         </h1>
         <p className="text-xl text-gray-600">
-          佐藤秀忠へのライブ出演依頼、メンバー応募、その他のお問い合わせはこちらへ。
+          Usiniへのライブ出演依頼、メンバー応募、その他のお問い合わせはこちらへ。
         </p>
       </header>
 
@@ -33,7 +33,7 @@ export default function ContactPage() {
                 name="name"
                 id="name"
                 required
-                placeholder="佐藤 秀忠"
+                placeholder="Usini"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 text-black"
               />
             </div>

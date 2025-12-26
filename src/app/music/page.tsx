@@ -87,7 +87,7 @@ export default function MusicPage() {
             Music & Lyrics
           </h1>
           <p className="text-xl text-gray-600">
-            佐藤秀忠の楽曲と歌詞
+            Usiniの楽曲と歌詞
           </p>
         </header>
 
