@@ -14,7 +14,7 @@ export default function AboutPage() {
             バンドコンセプト
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            北関東を中心に活動するUsiniです。日常に潜む葛藤や感情を、和風のメロディと激しいビートで表現しています。
+            群馬を中心に活動するUsiniです。日常に潜む葛藤や感情を、和風のメロディと激しいビートで表現しています。
           </p>
         </section>
 
@@ -24,8 +24,8 @@ export default function AboutPage() {
           </h2>
           <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
             <li>結成: 2022年12月15日</li>
-            <li>活動地域: 栃木県南エリア（下野市、小山市、宇都宮市など）</li>
-            <li>現在のメンバー: ギターボーカル、ベース</li>
+            <li>活動地域: 群馬県桐生市</li>
+            <li>現在のメンバー: ギターボーカル、ギター、ベース</li>
           </ul>
         </section>
 
@@ -34,7 +34,7 @@ export default function AboutPage() {
             🚨 緊急募集！
           </h3>
           <p className="text-gray-800 text-xl font-medium">
-            現在、ギターとドラムを緊急で募集しています！<br />
+            現在、ドラムを緊急で募集しています！<br />
             興味のある方は、お気軽に Contact ページからご連絡ください。
           </p>
         </section>
