@@ -5,13 +5,13 @@ export default function AboutPage() {
         <h1 className="text-5xl font-extrabold text-indigo-700 mb-2">
           Usini
         </h1>
-        <p className="text-xl text-gray-600">ここは「Usini」のホームページです。</p>
+        <p className="text-xl text-gray-600">ここはロックバンド「Usini」のホームページです。</p>
       </header>
 
       <main className="w-full max-w-4xl bg-white shadow-xl rounded-lg p-8">
         <section className="mb-8">
           <h2 className="text-3xl font-semibold text-indigo-600 mb-4 border-b pb-2">
-            バンドコンセプト
+            バンドについて
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
             群馬を中心に活動するUsiniです。
@@ -34,7 +34,7 @@ export default function AboutPage() {
             🚨 緊急募集！
           </h3>
           <p className="text-gray-800 text-xl font-medium">
-            現在、ドラムを緊急で募集しています！3/8（日）夜、空いていれば支給連絡ください✉️<br />
+            現在、ドラムを緊急で募集しています！3/8の夜、空いていれば至急連絡ください✉️<br />
             興味のある方は、お気軽に Contact ページからご連絡ください。
           </p>
         </section>
