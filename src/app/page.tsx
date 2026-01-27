@@ -23,7 +23,7 @@ export default function AboutPage() {
             活動状況
           </h2>
           <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
-            <li>結成: 2022年12月15日</li>
+            <li>結成: 2026年1月</li>
             <li>活動地域: 群馬県桐生市</li>
             <li>現在のメンバー: ギターボーカル、ギター、ベース</li>
           </ul>
