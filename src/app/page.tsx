@@ -14,7 +14,7 @@ export default function AboutPage() {
             バンドコンセプト
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            群馬を中心に活動するUsiniです。日常に潜む葛藤や感情を、和風のメロディと激しいビートで表現しています。
+            群馬を中心に活動するUsiniです。
           </p>
         </section>
 
