@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Usini - Official Site",
-  description: "北関東を拠点とするロックバンド「Usini」の公式サイトです。",
+  description: "群馬を拠点とするロックバンド「Usini」の公式サイトです。",
 };
 
 export default function RootLayout({
