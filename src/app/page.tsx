@@ -34,7 +34,7 @@ export default function AboutPage() {
             🚨 緊急募集！
           </h3>
           <p className="text-gray-800 text-xl font-medium">
-            現在、ドラムを緊急で募集しています！<br />
+            現在、ドラムを緊急で募集しています！3/8（日）夜、空いていれば支給連絡ください✉️<br />
             興味のある方は、お気軽に Contact ページからご連絡ください。
           </p>
         </section>
