@@ -5,7 +5,7 @@ export default function AboutPage() {
         <h1 className="text-5xl font-extrabold text-indigo-700 mb-2">
           Usini
         </h1>
-        <p className="text-xl text-gray-600">「Usini」のホームページ</p>
+        <p className="text-xl text-gray-600">ここは「Usini」のホームページです。</p>
       </header>
 
       <main className="w-full max-w-4xl bg-white shadow-xl rounded-lg p-8">
