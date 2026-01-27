@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Usini - Official Site",
+  title: "Usini - HP",
   description: "群馬を拠点とするロックバンド「Usini」のホームページです。",
 };
 
