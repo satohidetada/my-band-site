@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#111010] flex flex-col items-center py-12 px-4">
@@ -9,6 +11,17 @@ export default function AboutPage() {
           群馬県桐生市を拠点に活動するロックバンドです。
         </p>
       </header>
+
+      <div className="w-full max-w-4xl mb-10">
+        <Image
+          src="/top.jpg"
+          alt="Usini"
+          width={945}
+          height={703}
+          priority
+          className="w-full h-auto rounded-lg border border-[#3b3630] shadow-xl"
+        />
+      </div>
 
       <main className="w-full max-w-4xl bg-[#1f1d1b] border border-[#3b3630] shadow-xl rounded-lg p-8">
         <section className="mb-8">
@@ -30,7 +43,7 @@ export default function AboutPage() {
           <ul className="list-disc list-inside text-[#d6d3cd] text-lg space-y-2 marker:text-[#dc854b]">
             <li>結成：2026年1月</li>
             <li>活動地域：群馬県桐生市</li>
-            <li>メンバー：Vo/Gt いわた、Gt そら、Ba まさかず、Dr たかとも</li>
+            <li>メンバー：Vo/Gt 岩田、Gt そらくん、Ba まさかず、Dr たかとも</li>
             <li>第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中</li>
           </ul>
         </section>
