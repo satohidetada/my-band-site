@@ -8,7 +8,7 @@ export default function ContactPage() {
           Contact / お問い合わせ
         </h1>
         <p className="text-xl text-gray-600">
-          USINIへのライブ出演依頼、イベント出演、その他のお問い合わせはこちらへ。
+          Usiniへのライブ出演依頼、イベント出演、その他のお問い合わせはこちらへ。
         </p>
       </header>
 
@@ -80,7 +80,7 @@ export default function ContactPage() {
 
         <section className="mt-8 p-6 bg-indigo-50 border border-indigo-200 rounded-lg text-center">
           <h2 className="text-2xl font-bold text-indigo-800 mb-3">
-            USINI
+            Usini
           </h2>
           <p className="text-gray-700 text-lg">
             群馬県桐生市を拠点に活動しています。

@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-12 px-4">
       <header className="text-center mb-10">
         <h1 className="text-5xl font-extrabold text-indigo-700 mb-2">
-          USINI
+          Usini
         </h1>
         <p className="text-xl text-gray-600">
           群馬県桐生市を拠点に活動するロックバンドです。
@@ -16,7 +16,7 @@ export default function AboutPage() {
             バンドについて
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            USINIは、群馬県桐生市を拠点に活動する4人組ロックバンドです。
+            Usiniは、群馬県桐生市を拠点に活動する4人組ロックバンドです。
             ローファイでオルタナティブなインディーロックを軸に、
             オリジナル曲「May」「ナショナル」「図鑑」などを制作しています。
             現在、第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中です。
@@ -30,7 +30,7 @@ export default function AboutPage() {
           <ul className="list-disc list-inside text-gray-700 text-lg space-y-2">
             <li>結成：2026年1月</li>
             <li>活動地域：群馬県桐生市</li>
-            <li>メンバー：Vo/Gt 岩田、Gt そらくん、Ba まさかず、Dr たかとも</li>
+            <li>メンバー：Vo/Gt いわた、Gt そら、Ba まさかず、Dr たかとも</li>
             <li>第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中</li>
           </ul>
         </section>
