@@ -15,12 +15,12 @@ export default function AboutPage() {
           <h2 className="text-3xl font-semibold text-indigo-600 mb-4 border-b pb-2">
             バンドについて
           </h2>
-         <p className="text-gray-700 text-lg leading-relaxed">
-  USINIは、群馬県桐生市を拠点に活動する4人組ロックバンドです。
-  ローファイでオルタナティブなインディーロックを軸に、
-  オリジナル曲「May」「ナショナル」「図鑑」などを制作しています。
-  現在、第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中です。
-</p>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            USINIは、群馬県桐生市を拠点に活動する4人組ロックバンドです。
+            ローファイでオルタナティブなインディーロックを軸に、
+            オリジナル曲「May」「ナショナル」「図鑑」などを制作しています。
+            現在、第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中です。
+          </p>
         </section>
 
         <section className="mb-8">
@@ -31,13 +31,7 @@ export default function AboutPage() {
             <li>結成：2026年1月</li>
             <li>活動地域：群馬県桐生市</li>
             <li>メンバー：Vo/Gt 岩田、Gt そらくん、Ba まさかず、Dr たかとも</li>
-            <li>
-              第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」
-              1次音源審査を通過
-            </li>
-            <li>
-              2026年8月15日、前橋DYVERでの2次予選ライブ審査に出演
-            </li>
+            <li>第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中</li>
           </ul>
         </section>
 
@@ -46,12 +40,11 @@ export default function AboutPage() {
             ROCKERS2026
           </h2>
           <p className="text-gray-800 text-lg leading-relaxed">
-            USINIは、第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」にて
-            1次音源審査を通過し、前橋DYVERで開催された2次予選ライブ審査に
-            出演しました。
+            現在、第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中です。
           </p>
           <p className="text-gray-800 text-lg leading-relaxed mt-4">
-            演奏曲は「May」と「ナショナル」です。
+            決勝大会は2026年11月21日（土）、美喜仁桐生文化会館 小ホールにて開催されます。
+            入場無料ですので、ぜひお越しください。
           </p>
         </section>
 
