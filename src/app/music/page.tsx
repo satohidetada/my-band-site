@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface Track {
   title: string;
@@ -15,7 +15,7 @@ const tracks: Track[] = [
 石段を登りきったとこで
 鍵をなくした
 すべてが容易になって、可能になるような夢をみた`,
-    audioUrl: "/music/250705_May.mp3",
+    audioUrl: "/music/250705_May.mp3", 
   },
   {
     title: "ナショナル",
@@ -28,7 +28,7 @@ const tracks: Track[] = [
 驚いた瞳で顔を合わせた 送るよ
 飛び込んだなら鮮明な映像が
 なんてことのない声になってたや`,
-    audioUrl: "/music/251013_National.mp3",
+    audioUrl: "/music/251013_National.mp3", 
   },
   {
     title: "図鑑",
@@ -46,33 +46,31 @@ const tracks: Track[] = [
 とらえたような顔して漂っている
 まだ透明だな
 未だ透明だったんだぜ`,
-    audioUrl: "/music/250714_Zukan.mp3",
+    audioUrl: "/music/250714_Zukan.mp3", 
   },
 ];
 
 const TrackItem = ({ track }: { track: Track }) => {
-  const lines = track.lyrics.split("\n");
+  const lines = track.lyrics.split('\n');
 
   return (
-    <div className="bg-white shadow-xl rounded-xl p-6 mb-10 border border-indigo-100">
-      <h2 className="text-3xl font-bold text-indigo-700 mb-4 border-b pb-2">
+    <div className="bg-[#1f1d1b] shadow-xl rounded-xl p-6 mb-10 border border-[#3b3630]">
+      <h2 className="text-3xl font-bold text-[#dc854b] mb-4 border-b border-[#3b3630] pb-2">
         🎵 {track.title}
       </h2>
-
+      
+      {/* MP3オーディオプレーヤー */}
       <div className="mb-6">
         <audio controls className="w-full">
           <source src={track.audioUrl} type="audio/mpeg" />
-          <p className="text-red-500">
-            お使いのブラウザは音声再生に対応していません。
-          </p>
+          <p className="text-red-500">お使いのブラウザは音声再生に対応していません。</p>
         </audio>
       </div>
 
-      <div className="text-lg text-gray-800 whitespace-pre-wrap leading-relaxed">
+      {/* 歌詞エリア */}
+      <div className="text-lg text-[#d6d3cd] whitespace-pre-wrap leading-relaxed">
         {lines.map((line: string, index: number) => (
-          <p key={index} className="mb-1">
-            {line}
-          </p>
+          <p key={index} className="mb-1">{line}</p>
         ))}
       </div>
     </div>
@@ -81,13 +79,13 @@ const TrackItem = ({ track }: { track: Track }) => {
 
 export default function MusicPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#111010] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-12">
-          <h1 className="text-5xl font-extrabold text-indigo-800 mb-4">
+          <h1 className="text-5xl font-extrabold text-[#dc854b] mb-4">
             Music & Lyrics
           </h1>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-[#9b9660]">
             Usiniの楽曲と歌詞
           </p>
         </header>
