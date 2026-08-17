@@ -15,11 +15,12 @@ export default function AboutPage() {
           <h2 className="text-3xl font-semibold text-indigo-600 mb-4 border-b pb-2">
             バンドについて
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed">
-            USINIは、群馬県桐生市を拠点に活動するロックバンドです。
-            ローファイ、インディーロック、オルタナティブロックの質感を軸に、
-            日常の違和感や季節の風景を楽曲にしています。
-          </p>
+         <p className="text-gray-700 text-lg leading-relaxed">
+  USINIは、群馬県桐生市を拠点に活動する4人組ロックバンドです。
+  ローファイでオルタナティブなインディーロックを軸に、
+  オリジナル曲「May」「ナショナル」「図鑑」などを制作しています。
+  現在、第38回FM GUNMAアマチュア音楽祭「ROCKERS2026」に出場中です。
+</p>
         </section>
 
         <section className="mb-8">
