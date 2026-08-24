@@ -5,6 +5,7 @@ const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'Music & Lyrics', href: '/music' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Instagram', href: 'https://www.instagram.com/ultrchnvr' },
 ];
 
 export default function Navbar() {

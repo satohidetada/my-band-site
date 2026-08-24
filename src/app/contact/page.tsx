@@ -94,7 +94,6 @@ export default function ContactPage() {
         </section>
       </main>
     
-      <a href="https://www.instagram.com/ultrchnvr" target="_blank" rel="noopener noreferrer" className="mt-8 inline-block text-lime-400 hover:text-orange-400 underline transition duration-150">Instagram</a>
     </div>
   );
 }
